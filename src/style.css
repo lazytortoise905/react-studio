@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    --theme: rgb(41, 41, 41);
+    --background: rgb(110, 118, 152);
+    background-color: var(--theme);
+    color: white;
+    padding: 50px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 400px;
+    row-gap: 5px;
+    background-color: var(--background);
+    padding: 10px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+button {
+    color: white;
+    background-color: var(--theme);
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+.bakery-items {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    width: 1000px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+.app-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    min-width: 30vw;
+}
+
+.bakery-divider {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
